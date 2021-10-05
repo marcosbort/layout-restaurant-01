@@ -25,8 +25,8 @@ html {
 
 .web-container {
     margin: 0 auto;
+    width: 80%;
     width: 1440px;
-    /* width: 80%; */
 }
 
 
@@ -169,6 +169,7 @@ html {
     .about__content__title {
         color: white;
         font-size: 55px;
+        margin-bottom: 20px;
     }
 
     .about__content__text {
@@ -180,40 +181,40 @@ html {
 
 
 /* ------------------------------------------------------------------
-    Menus
-------------------------------------------------------------------- */
-.menus {
+    Qualityquality--------------------------------------------------------------- */
+.quality {
     background-color: #1e1d23;
     width: 100%;
 }
 
-.menus__container {
+.quality__container {
     position: relative;
     justify-content: flex-end;
 }
 
-.menus__container__img-1 {
+.quality__container__img-1 {
     position: absolute;
     right: 0px;
 }
 
-.menus__container__img-2 {
+.quality__container__img-2 {
     position: absolute;
     margin-top: 100px;
 }
 
-.menus__container__img-3 {
+.quality__container__img-3 {
     position: absolute;
     right: 0px;
     margin-top: 750px;
+    width: 750px;
 }
 
-.menus__container__img-4 {
+.quality__container__img-4 {
     position: absolute;
-    top: 1135px;
+    top: 855px;
 }
 
-.menus__content {
+.quality__content {
     position: absolute;
     top: 290px;
     left: 100px;
@@ -221,17 +222,84 @@ html {
     color: white
 }
 
-.menus__content__title {
+.quality__content__title {
     color: white;
     font-size: 55px;
+    margin-bottom: 20px;
 }
 
-.menus__content__text {
+.quality__content__text {
     color: white;
     font-size: 26px;
 }
 
 
 
+/* ------------------------------------------------------------------
+    Gallery
+------------------------------------------------------------------- */
+.gallery {
+    position: relative;
+    top: 1500px;
+    padding-bottom: 120px;
+}
 
+.gallery__title {
+    color: white;
+    font-size: 55px;
+    text-align: center;
+    padding-top: 200px;
+    margin-bottom: 70px;
+}
+
+.gallery__images {
+    width: 90%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    grid-template-rows: 1fr 1fr;
+    justify-content: space-between;
+    align-content: space-evenly;
+}
+
+.gallery__images__img {
+    width: 100%;
+    margin-bottom: 12%;
+}
+
+
+
+/* ------------------------------------------------------------------
+    Enjoy
+------------------------------------------------------------------- */
+.enjoy__container {
+    position: relative;
+    top: 1480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.enjoy__content {
+    position: absolute;
+    width: 60%;
+    height: 50%;
+    background-color: #1e1d23;
+    opacity: 0.8;
+    border: 10px solid #fb9300;
+}
+
+.enjoy__content__title {
+    color: white;
+    font-size: 55px;
+    margin-top: 45px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.enjoy__content__text {
+    color: white;
+    font-size: 26px;
+    padding: 0% 20%;
+}
 
