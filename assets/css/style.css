@@ -32,8 +32,6 @@ html {
 
 
 
-
-
 /* ------------------------------------------------------------------
     Navbar
 ------------------------------------------------------------------- */
@@ -137,6 +135,7 @@ html {
 
 
 
+
 /* ------------------------------------------------------------------
     About
 ------------------------------------------------------------------- */
@@ -235,6 +234,7 @@ html {
 
 
 
+
 /* ------------------------------------------------------------------
     Gallery
 ------------------------------------------------------------------- */
@@ -269,6 +269,7 @@ html {
 
 
 
+
 /* ------------------------------------------------------------------
     Enjoy
 ------------------------------------------------------------------- */
@@ -278,6 +279,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 140px;
 }
 
 .enjoy__content {
@@ -303,3 +305,53 @@ html {
     padding: 0% 20%;
 }
 
+
+
+
+/* ------------------------------------------------------------------
+    Enjoy
+------------------------------------------------------------------- */
+.menu__container {
+    margin-top: 1460px;
+    padding-bottom: 140px;
+}
+
+.menu__title {
+    color: white;
+    font-size: 55px;
+    margin-top: 45px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.menu__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.menu__content__card {
+    width: 28%;
+}
+
+.menu__content__card__img {
+    width: 100%;
+}
+
+.menu__content__card__title {
+    color: #fb9300;
+    text-transform: uppercase;
+    margin-top: 38px;
+}
+
+.menu__content__card__text {
+    color: white;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.menu__content__card__price {
+    color: #fb9300;
+    margin-top: 18px;
+    font-size: 28px;
+}
