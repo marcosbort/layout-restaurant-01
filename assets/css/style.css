@@ -148,7 +148,7 @@ html {
 .about__container {
     width: 90%;
     padding-top: 140px;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
@@ -188,28 +188,48 @@ html {
 }
 
 .menus__container {
-    display: flex;
+    position: relative;
     justify-content: flex-end;
 }
 
 .menus__container__img-1 {
     position: absolute;
+    right: 0px;
 }
 
 .menus__container__img-2 {
+    position: absolute;
     margin-top: 100px;
 }
 
 .menus__container__img-3 {
     position: absolute;
+    right: 0px;
     margin-top: 750px;
 }
 
 .menus__container__img-4 {
-    margin-top: -720px;
+    position: absolute;
+    top: 1135px;
 }
 
+.menus__content {
+    position: absolute;
+    top: 290px;
+    left: 100px;
+    width: 36%;
+    color: white
+}
 
+.menus__content__title {
+    color: white;
+    font-size: 55px;
+}
+
+.menus__content__text {
+    color: white;
+    font-size: 26px;
+}
 
 
 
