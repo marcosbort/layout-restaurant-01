@@ -19,7 +19,7 @@ html {
     overflow-x: hidden;
     font-family: 'Patua One', cursive;
     background: #202020;
-    height: 2000px;
+    /* height: 2000px; */
   }
 
 
@@ -27,6 +27,7 @@ html {
     margin: 0 auto;
     width: 80%;
     width: 1440px;
+    background-color: #1e1d23;
 }
 
 
@@ -140,14 +141,13 @@ html {
     About
 ------------------------------------------------------------------- */
 .about {
-    background-color: #1e1d23;
     width: 100%;
 }
 
 .about__container {
     width: 90%;
     padding-top: 140px;
-    padding-bottom: 40px;
+    /* padding-bottom: 40px; */
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
@@ -180,10 +180,11 @@ html {
 
 
 /* ------------------------------------------------------------------
-    Qualityquality--------------------------------------------------------------- */
+    Qualityquality
+------------------------------------------------------------------ */
 .quality {
-    background-color: #1e1d23;
     width: 100%;
+    padding-top: 10px;
 }
 
 .quality__container {
@@ -215,7 +216,7 @@ html {
 
 .quality__content {
     position: absolute;
-    top: 290px;
+    top: 270px;
     left: 100px;
     width: 36%;
     color: white
@@ -279,7 +280,6 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 140px;
 }
 
 .enjoy__content {
@@ -309,10 +309,11 @@ html {
 
 
 /* ------------------------------------------------------------------
-    Enjoy
+    Menu
 ------------------------------------------------------------------- */
 .menu__container {
-    margin-top: 1460px;
+    margin-top: 1440px;
+    padding-top: 150px;
 }
 
 .menu__title {
@@ -354,3 +355,78 @@ html {
     margin-top: 18px;
     font-size: 28px;
 }
+
+
+
+
+/* ------------------------------------------------------------------
+    Enjoy Two
+------------------------------------------------------------------- */
+
+.enjoy-two__container {
+    width: 100%;
+    height: 500px;
+    background-color: #fc9300;
+    margin-top: 190px;
+    position: relative;
+}
+
+.enjoy-two__img {
+    margin-top: -68px;
+}
+
+.enjoy-two__content {
+    width: 35%;
+    position: absolute;
+    top: 55px;
+    right: 15%;
+
+}
+
+.enjoy-two__content__title {
+    color: white;
+    font-size: 55px;
+    margin-top: 45px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.enjoy-two__content__text {
+    color: white;
+    font-size: 26px;
+}
+
+
+
+
+/* ------------------------------------------------------------------
+Contact
+------------------------------------------------------------------- */
+.contact__container {
+    width: 100%;
+    height: 500px;
+    background-color: #37353b;
+    text-align: center;
+}
+
+.contact__logo {
+    margin-top: 120px;
+}
+
+.contact__text {
+    color: white;
+    font-size: 22px;
+    margin-top: 25px;
+}
+
+.contact__text-two {
+    color: white;
+    font-size: 16px;
+    margin-top: -15px;
+}
+
+.contact__social-media__logo {
+    margin-top: 20px;
+    padding: 8px;
+}
+
