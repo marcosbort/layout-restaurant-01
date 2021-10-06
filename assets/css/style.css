@@ -65,7 +65,7 @@ html {
 
 .navbar__logo {
     position: absolute;
-    margin-left: 45%;
+    margin-left: 47%;
     margin-top: 50px;
     cursor: pointer;
 }
@@ -313,7 +313,6 @@ html {
 ------------------------------------------------------------------- */
 .menu__container {
     margin-top: 1460px;
-    padding-bottom: 140px;
 }
 
 .menu__title {
