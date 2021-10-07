@@ -211,7 +211,7 @@ html {
     right: 0px;
     top: 680px;
     width: 750px;
-    width: 52%;
+    width: 51%;
 }
 
 .quality__container__img-4 {
@@ -244,10 +244,10 @@ html {
 /* ------------------------------------------------------------------
     Gallery
 ------------------------------------------------------------------- */
-.gallery {
-    position: relative;
-    top: 1320px;
-    padding-bottom: 120px;
+
+.page-top {
+    margin-top: 1300px !important;
+    padding-bottom: 140px;
 }
 
 .gallery__title {
@@ -258,22 +258,46 @@ html {
     margin-bottom: 60px;
 }
 
-.gallery__images {
-    width: 90%;
-    margin: 0px auto;
-    display: grid;
-    grid-template-columns: repeat(3, 30%);
-    grid-template-rows: 1fr 1fr;
-    justify-content: space-between;
-    align-content: space-evenly;
-}
-
-.gallery__images__img {
-    width: 100%;
-    margin-bottom: 12%;
-}
-
-
+.green{
+    background-color:#6fb936;
+  }
+          .thumb{
+              margin-bottom: 30px;
+          }
+           
+     
+  img.zoom {
+      width: 100%;
+      height: 280px;
+      border-radius:5px;
+      object-fit:cover;
+      -webkit-transition: all .3s ease-in-out;
+      -moz-transition: all .3s ease-in-out;
+      -o-transition: all .3s ease-in-out;
+      -ms-transition: all .3s ease-in-out;
+  }
+          
+   
+  .transition {
+      -webkit-transform: scale(1.2); 
+      -moz-transform: scale(1.2);
+      -o-transform: scale(1.2);
+      transform: scale(1.2);
+      /* -webkit-transform: scale(1.15); 
+      -moz-transform: scale(1.15);
+      -o-transform: scale(1.15);
+      transform: scale(1.15); */
+  }
+      .modal-header {
+     
+       border-bottom: none;
+  }
+      .modal-title {
+          color:#000;
+      }
+      .modal-footer{
+        display:none;  
+      }
 
 
 /* ------------------------------------------------------------------
@@ -281,7 +305,8 @@ html {
 ------------------------------------------------------------------- */
 .enjoy__container {
     position: relative;
-    top: 1300px;
+    /* top: 1300px; */
+    margin-bottom: -40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -318,7 +343,7 @@ html {
     Menu
 ------------------------------------------------------------------- */
 .menu__container {
-    margin-top: 1250px;
+    /* margin-top: 1250px; */
     padding-top: 150px;
 }
 
@@ -373,7 +398,7 @@ html {
     width: 100%;
     height: 500px;
     background-color: #fc9300;
-    margin-top: 150px;
+    margin-top: 130px;
     position: relative;
 }
 
@@ -437,3 +462,9 @@ Contact
 }
 
 /* Los Media Queries están en responsive.css!!! */
+
+
+
+
+  
+  
