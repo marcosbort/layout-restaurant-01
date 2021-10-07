@@ -148,7 +148,6 @@ html {
     margin: 0px auto;
     width: 80%;
     padding-top: 180px;
-    /* padding-bottom: 40px; */
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
@@ -248,7 +247,7 @@ html {
 
 .page-top {
     margin-top: 1300px !important;
-    padding-bottom: 145px;
+    padding-bottom: 135px;
 }
 
 .gallery__title {
@@ -345,7 +344,7 @@ html {
 ------------------------------------------------------------------- */
 .menu__container {
     /* margin-top: 1250px; */
-    padding-top: 130px;
+    padding-top: 140px;
 }
 
 .menu__title {
