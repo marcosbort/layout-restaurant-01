@@ -25,8 +25,8 @@ html {
 
 .web-container {
     margin: 0 auto;
-    width: 80%;
-    width: 1440px;
+    width: 70%;
+    width: 1280px;
     background-color: #1e1d23;
 }
 
@@ -51,7 +51,7 @@ html {
 
 .navbar .nav-link {
     display: block;
-    font-size: 18px;
+    font-size: 17px;
     text-align: left;
     /* padding: 25px 20px !important; */
     padding: 16px 25px !important;
@@ -67,7 +67,7 @@ html {
 .navbar__logo {
     position: absolute;
     margin-left: 47%;
-    margin-top: 50px;
+    margin-top: 40px;
     cursor: pointer;
 }
 
@@ -77,47 +77,45 @@ html {
 /* ------------------------------------------------------------------
     Home
 ------------------------------------------------------------------- */
+.home__bg {
+    width: 100%;
+}
 
 .home__container {
+    position: relative;
+    top: -520px;
+}
+
+.home__img {
     position: absolute;
-    top: 250px;
-
-    display: flex;
-    flex-flow: row grap;
-    justify-content: space-around;
+    left: 4%;
+    top: -40px;
+    width: 44%;
+    
 }
-
-.home__content__img {
-    width: 40%;
-    display: flex;
-    justify-content: right;
-}
-    .home__img {
-        width: 95%;
-    }
 
 .home__content {
+    position: absolute;
     width: 40%;
-    margin-right: 15%;
-    margin-left: 3%;
+    left: 53%;
 }
 
     .home__content__title {
-    font-size: 80px;
+    font-size: 64px;
     color: #fb9300;
     }
 
     .home__content__text {
-        font-size: 25px;
+        font-size: 24px;
         color: white;
         text-align: left;
-        width: 85%;
+        width: 84%;
         /* margin-top: -10px; */
     }
 
 .home__content__cta {
-    width: 200px;
-    height: 70px;
+    width: 180px;
+    height: 60px;
     margin-top: 30px;
     border-radius: 10px;
     background-color: #fb9300;
@@ -130,8 +128,8 @@ html {
         display: block;
         text-decoration: none;
         color: #333237;
-        font-size: 24px;
-        margin-top: 17px;
+        font-size: 22px;
+        margin-top: 13px;
     }
 
 
@@ -145,8 +143,9 @@ html {
 }
 
 .about__container {
-    width: 90%;
-    padding-top: 140px;
+    margin: 0px auto;
+    width: 80%;
+    padding-top: 180px;
     /* padding-bottom: 40px; */
     display: flex;
     flex-direction: row;
@@ -156,24 +155,25 @@ html {
 }
 
 .about__img {
-    width: 40%;
+    width: 50%;
 }
 
 
 .about__content {
-    width: 34%;
-    margin-left: 15%;
+    width: 50%;
+    padding-left: 5%;
+    /* margin-left: 2%; */
 }
 
     .about__content__title {
         color: white;
-        font-size: 55px;
+        font-size: 50px;
         margin-bottom: 20px;
     }
 
     .about__content__text {
         color: white;
-        font-size: 26px;
+        font-size: 24px;
     }
 
 
@@ -194,29 +194,31 @@ html {
 
 .quality__container__img-1 {
     position: absolute;
+    top: 10px;
     right: 0px;
 }
 
 .quality__container__img-2 {
     position: absolute;
-    margin-top: 100px;
+    margin-top: 90px;
 }
 
 .quality__container__img-3 {
     position: absolute;
     right: 0px;
-    margin-top: 750px;
+    top: 680px;
     width: 750px;
+    width: 52%;
 }
 
 .quality__container__img-4 {
     position: absolute;
-    top: 855px;
+    top: 760px;
 }
 
 .quality__content {
     position: absolute;
-    top: 270px;
+    top: 240px;
     left: 100px;
     width: 36%;
     color: white
@@ -224,13 +226,13 @@ html {
 
 .quality__content__title {
     color: white;
-    font-size: 55px;
+    font-size: 50px;
     margin-bottom: 20px;
 }
 
 .quality__content__text {
     color: white;
-    font-size: 26px;
+    font-size: 24px;
 }
 
 
@@ -241,16 +243,16 @@ html {
 ------------------------------------------------------------------- */
 .gallery {
     position: relative;
-    top: 1500px;
+    top: 1320px;
     padding-bottom: 120px;
 }
 
 .gallery__title {
     color: white;
-    font-size: 55px;
+    font-size: 50px;
     text-align: center;
-    padding-top: 200px;
-    margin-bottom: 70px;
+    padding-top: 180px;
+    margin-bottom: 60px;
 }
 
 .gallery__images {
@@ -276,7 +278,7 @@ html {
 ------------------------------------------------------------------- */
 .enjoy__container {
     position: relative;
-    top: 1480px;
+    top: 1300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -284,8 +286,8 @@ html {
 
 .enjoy__content {
     position: absolute;
-    width: 60%;
-    height: 50%;
+    width: 55%;
+    height: 51%;
     background-color: #1e1d23;
     opacity: 0.8;
     border: 10px solid #fb9300;
@@ -293,16 +295,17 @@ html {
 
 .enjoy__content__title {
     color: white;
-    font-size: 55px;
+    font-size: 50px;
     margin-top: 45px;
     margin-bottom: 20px;
     text-align: center;
 }
 
 .enjoy__content__text {
+    text-align: center;
     color: white;
-    font-size: 26px;
-    padding: 0% 20%;
+    font-size: 24px;
+    padding: 0% 15%;
 }
 
 
@@ -312,14 +315,14 @@ html {
     Menu
 ------------------------------------------------------------------- */
 .menu__container {
-    margin-top: 1440px;
+    margin-top: 1250px;
     padding-top: 150px;
 }
 
 .menu__title {
     color: white;
-    font-size: 55px;
-    margin-top: 45px;
+    font-size: 50px;
+    margin-top: 30px;
     margin-bottom: 60px;
     text-align: center;
 }
@@ -331,7 +334,7 @@ html {
 }
 
 .menu__content__card {
-    width: 28%;
+    width: 29%;
 }
 
 .menu__content__card__img {
@@ -367,12 +370,12 @@ html {
     width: 100%;
     height: 500px;
     background-color: #fc9300;
-    margin-top: 190px;
+    margin-top: 150px;
     position: relative;
 }
 
 .enjoy-two__img {
-    margin-top: -68px;
+    margin-top: -35px;
 }
 
 .enjoy-two__content {
@@ -385,15 +388,15 @@ html {
 
 .enjoy-two__content__title {
     color: white;
-    font-size: 55px;
-    margin-top: 45px;
+    font-size: 50px;
+    margin-top: 56px;
     margin-bottom: 20px;
     text-align: left;
 }
 
 .enjoy-two__content__text {
     color: white;
-    font-size: 26px;
+    font-size: 24px;
 }
 
 
@@ -404,13 +407,13 @@ Contact
 ------------------------------------------------------------------- */
 .contact__container {
     width: 100%;
-    height: 500px;
+    height: 480px;
     background-color: #37353b;
     text-align: center;
 }
 
 .contact__logo {
-    margin-top: 120px;
+    margin-top: 110px;
 }
 
 .contact__text {
