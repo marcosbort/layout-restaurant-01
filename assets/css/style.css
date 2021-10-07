@@ -158,6 +158,7 @@ html {
 
 .about__img {
     width: 50%;
+    /* border-radius: 8px; */
 }
 
 
@@ -268,7 +269,7 @@ html {
      
   img.zoom {
       width: 100%;
-      height: 280px;
+      height: 250px;
       border-radius:5px;
       object-fit:cover;
       -webkit-transition: all .3s ease-in-out;
@@ -344,7 +345,7 @@ html {
 ------------------------------------------------------------------- */
 .menu__container {
     /* margin-top: 1250px; */
-    padding-top: 150px;
+    padding-top: 130px;
 }
 
 .menu__title {
@@ -367,6 +368,7 @@ html {
 
 .menu__content__card__img {
     width: 100%;
+    /* border-radius: 8px; */
 }
 
 .menu__content__card__title {
