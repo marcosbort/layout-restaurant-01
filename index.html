@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
     <!-- css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/aos.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
     <!-- Fancybox -->
@@ -194,7 +195,7 @@
                 <h2 class="menu__title">Our Menu</h2>
                 
                 <div class="menu__content">
-                    <div class="menu__content__card menu__content__card-1">
+                    <div class="menu__content__card menu__content__card-1" >
                         <img class="menu__content__card__img" src="./assets/images/g6_img_1.jpg" alt="menu image">
                         <h3 class="menu__content__card__title">Italian Source Mushroom</h3>
                         <p class="menu__content__card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ad impedit doloribus porro maxime reprehenderit at est cupiditate! Perferendis, dolores!</p>
@@ -264,10 +265,20 @@
     <!-- Fancybox -->
     <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
 
-
-
     <!-- Js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
     <script src="./assets/js/gallery.js"></script>
+
+    <script src="./js/aos.js"></script> 
+    <script> 
+        AOS.init({ 
+            offset: 200, 
+            duration: 800, 
+            delay: 150, 
+            easing: 'ease-out-quart', 
+            anchorPlacement: 'top-bottom' 
+        }); 
+    </script>
+
 </body>
 </html>
