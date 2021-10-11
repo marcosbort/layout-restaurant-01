@@ -1,12 +1,14 @@
-/* ------------------------------------------------------------------
-    Media Queries 1024
-------------------------------------------------------------------- */
 
 @media (max-width: 1280px) {
     .web-container {
         width: 100%;
     }
 }
+
+/* ------------------------------------------------------------------
+    Media Queries 1024
+------------------------------------------------------------------- */
+
 @media (max-width: 1024px) {
 
     .web-container {
@@ -45,6 +47,7 @@
     /* About */
     .about__container {
         width: 86%;
+        padding-top: 170px;
     }
 
     .about__content__title {
@@ -92,9 +95,9 @@
     }
     
     /* Gallery */
-    .gallery {
-        top: 1050px;
-        padding-bottom: 120px;
+    .page-top {
+        margin-top: 1040px !important;
+        padding-bottom: 135px;
     }
 
     .gallery__title {
@@ -104,7 +107,7 @@
 
     /* Enjoy */
     .enjoy__container {
-        top: 1030px;
+        top: 0px;
         display: flex;
     }
 
@@ -125,7 +128,7 @@
     /* Menu */
 
     .menu__container {
-        margin-top: 970px;
+        /* margin-top: -40px; */
         padding-top: 150px;
     }
 
@@ -180,3 +183,15 @@
         text-align: center;
     }
 }   
+
+
+/* ------------------------------------------------------------------
+    Media Queries 768
+------------------------------------------------------------------- */
+
+@media (max-width: 768px) {
+
+
+
+    
+}
