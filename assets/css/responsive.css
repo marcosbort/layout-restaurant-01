@@ -105,6 +105,11 @@
         margin-bottom: 50px;
     }
 
+    img.zoom {
+        width: 100%;
+        height: 180px;
+    }
+
     /* Enjoy */
     .enjoy__container {
         top: 0px;
