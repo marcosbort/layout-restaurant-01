@@ -191,6 +191,200 @@
 
 @media (max-width: 768px) {
 
+    .web-container {
+        width: 100%;
+    }
+
+    /* Navbar */
+    .navbar__logo {
+        left: 46%;
+        top: 30px;
+    }
+
+    /* Home */
+    .web-container {
+        width: 768px;
+    }
+
+    .home__bg {
+        width: 100%;
+        height: 590px !important;
+        overflow: hidden;
+    }
+
+    .home__container {
+        top: -340px;
+    }
+
+        .home__content {
+        width: 49%;
+        left: 52%;
+        top: -60px;
+    }
+
+    .home__content__title {
+        font-size: 50px;
+    }
+
+    .home__content__text {
+        font-size: 20px;
+        color: white;
+        text-align: left;
+        width: 81%;
+        /* margin-top: -10px; */
+    }
+
+    
+
+    /* About */
+    .about__container {
+        width: 90%;
+        padding-top: 170px;
+    }
+
+    .about__img {
+        width: 46%;
+        /* border-radius: 8px; */
+    }
+
+    .about__content__title {
+        font-size: 46px;
+    }
+
+    .about__content__text {
+        font-size: 20px;
+    }
+
+    .about__content {
+        width: 50%;
+        padding-left: 4%;
+        /* margin-left: 2%; */
+    }
+    
+    /* Quality */
+    
+    .quality__container__img-1 {
+        width: 31%;
+        top: 40px;
+    }
+
+    .quality__content__title {
+        font-size: 46px;
+        width: 70%;
+    }
+
+    .quality__content__text {
+        font-size: 20px;
+    }
+
+    .quality__content {
+        top: 109px;
+        left: 46px;
+        width: 52%;
+    }
+    
+    /* Gallery */
+    .page-top {
+        margin-top: 900px !important;
+        padding-bottom: 120px;
+    }
+
+    .gallery__title {
+        font-size: 46px;
+        margin-bottom: 50px;
+    }
+
+    /* Enjoy */
+    .enjoy__container {
+        top: 0px;
+        display: flex;
+    }
+
+    .enjoy__bg {
+        width: 900px;
+    }
+
+    .enjoy__content__title {
+        font-size: 46px;
+        margin-top: 44px;
+        margin-bottom: 20px;
+    }
+
+    .enjoy__content__text {
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        padding: 0% 10%;
+    }
+
+    .enjoy__content {
+        height: 72%;
+    }
+
+
+    /* Menu */
+
+    .menu__container {
+        /* margin-top: -40px; */
+        padding-top: 150px;
+    }
+
+    .menu__title {
+        font-size: 46px;
+        margin-bottom: 48px;
+    }
+
+    .menu__content__card__title {
+        margin-top: 36px;
+        font-size: 20px;
+    }
+
+    .menu__content__card__price {
+        margin-top: 0px;
+        font-size: 24px;
+    }
+
+    /* Enjoy Two */
+    .enjoy-two__container {
+        margin-top: 120px;
+        height: 290px;
+    }
+
+
+    .enjoy-two__img {
+        margin-top: -39px;
+        width: 46%;
+    }
+
+    .enjoy-two__content {
+        width: 47%;
+        top: -26px;
+        right: 4%;
+    }
+
+    .enjoy-two__content__title {
+        font-size: 46px;
+        margin-top: 56px;
+        margin-bottom: 20px;
+    }
+
+    .enjoy-two__content__text {
+        font-size: 20px;
+    }
+
+    /* Contact */
+    .contact__container {
+        width: 100%;
+        height: 450px;
+        background-color: #37353b;
+        text-align: center;
+    }
+
+    .contact__social-media__logo {
+        margin-top: 20px;
+        padding: 8px;
+        width: 50px;
+    }
 
 
     
