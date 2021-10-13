@@ -396,6 +396,265 @@
 }
 
 
+/* ------------------------------------------------------------------
+    Media Queries 444
+------------------------------------------------------------------- */
+
+@media (max-width: 444px) {
+
+    .web-container {
+        width: 100%;
+    }
+
+    /* Navbar */
+    .navbar__logo {
+    display: none;
+    }
+
+    /* Home */
+    .home__img {
+        left: 12%;
+        width: 72%;
+        top: 34px;
+    }
+
+    .home__content {
+        width: 84%;
+        left: 13%;
+        top: 310px;
+    }
+
+    .home__content__title {
+        font-size: 46px;
+        
+    }
+
+    .home__content__text {
+        font-size: 18px;
+        color: white;
+        text-align: left;
+        width: 90%;
+        /* margin-top: -10px; */
+    }
+
+    .home__container {
+        position: static;
+    }
+
+    .home__bg {
+        width: 100%;
+        height: 630px !important;
+        overflow: hidden;
+    }
+
+
+    /* About */
+    .about {
+        width: 95%;
+        margin-left: 4%;
+    }
+
+    .about__img {
+        width: 90%;
+    }
+
+    .about__container {
+        flex-direction: column;
+    }
+
+    .about__container {
+        width: 90;
+        padding-top: 64px;
+        align-items: flex-start;
+    }
+
+    .about__content {
+        width: 94%;
+        padding-left: 0%;
+    }
+
+    .about__content__title {
+        font-size: 46px;
+        margin-top: 20px;
+    }
+
+    .about__content__text {
+        font-size: 18px;
+    }
+
+    /* Quality */
+    .quality {
+        width: 185%;
+    }
+    .quality__content {
+        top: 36px;
+        left: 35px;
+        width: 42%;
+
+    }
+
+    .quality__container__img-3 {
+        position: absolute;
+        right: 99px;
+        top: 410px;
+        width: 750px;
+        width: 45%;
+    }
+
+    .quality__container__img-4 {
+        top: 518px;
+        width: 36%;
+    }
+
+
+    /* Gallery */
+    .container {
+        /* width: 80% !important; */
+        margin-left: 20px;
+        /* margin-top: 900px !important; */
+    }
+
+    .row > * {
+        flex-shrink: 0;
+        width: 46%;
+        max-width: 100%;
+        padding-right: calc(var(--bs-gutter-x) * .5);
+        padding-left: calc(var(--bs-gutter-x) * .5);
+        margin-top: var(--bs-gutter-y);
+    }
+
+    .gallery__title {
+        color: white;
+        font-size: 46px;
+        text-align: left !important;
+        padding-top: 160px;
+        margin-bottom: 60px;
+    }
+
+    img.zoom {
+        width: 200px;
+        height: 180px;
+        /* margin-left: 20px; */
+    }
+    
+    .page-top {
+        margin-top: 770px !important;
+        padding-bottom: 70px;
+    }
+
+    .gallery__title {
+        color: white;
+        font-size: 46px;
+        text-align: center;
+        padding-top: 160px;
+        margin-bottom: 60px;
+    }
+
+    /* Enjoy */
+    .enjoy__container {
+        width: 100%;
+        justify-content: center;
+        padding-bottom: 100px;
+    }
+
+    .enjoy__bg {
+        width: 700px;
+        margin-left: 200px;
+    }
+
+    .enjoy__content__title {
+        font-size: 46px;
+        margin-top: 32px;
+        margin-bottom: 20px;
+    }
+
+    .enjoy__content__text {
+        text-align: center;
+        color: white;
+        font-size: 18px;
+        padding: 0% 10%;
+    }
+
+    .enjoy__content {
+        height: 70%;
+        width: 89%;
+    }
+
+
+    /* Menu */
+
+    .menu__container {
+        padding-top: 10px;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .menu__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .menu__content__card {
+        width: 82%;
+        margin-bottom: 50px;
+    }
+
+    .menu__title {
+        font-size: 46px;
+        margin-bottom: 46px;
+    }
+
+    .menu__content__card__title {
+        margin-top: 36px;
+        font-size: 20px;
+    }
+
+    .menu__content__card__price {
+        margin-top: 0px;
+        font-size: 24px;
+    }
+
+
+    /* Enjoy Two */
+    .enjoy-two__container {
+        width: 100%;
+        margin-top: 50px;
+        height: 350px;
+    }
+
+    
+
+    .enjoy-two__img {
+        margin-top: 240px;
+        width: 48%;
+    }
+
+    .enjoy-two__content {
+        width: 80%;
+        top: -30px;
+        left: 10%;
+    }
+
+    .enjoy-two__content__title {
+        font-size: 46px;
+        margin-top: 56px;
+        margin-bottom: 20px;
+    }
+
+    .enjoy-two__content__text {
+        font-size: 18px;
+    }
+
+
+    /* Contact */
+    .contact__logo {
+        margin-top: 126px;
+    }
+}
+
+
+
 
 /* ------------------------------------------------------------------
     Media Queries 412
