@@ -414,8 +414,8 @@
 
     /* Home */
     .home__img {
-        left: 11%;
-        width: 74%;
+        left: 12%;
+        width: 72%;
         top: 34px;
     }
 
@@ -451,8 +451,14 @@
 
     /* About */
     .about {
-        width: 184%;
+        width: 95%;
+        margin-left: 4%;
     }
+
+    .about__img {
+        width: 90%;
+    }
+
     .about__container {
         flex-direction: column;
     }
@@ -464,7 +470,7 @@
     }
 
     .about__content {
-        width: 50%;
+        width: 95%;
         padding-left: 0%;
     }
 
@@ -547,18 +553,19 @@
 
     /* Enjoy */
     .enjoy__container {
-        width: 185%;
-        justify-content: flex-start;
+        width: 100%;
+        justify-content: center;
         padding-bottom: 100px;
     }
 
     .enjoy__bg {
-        width: 900px;
+        width: 700px;
+        margin-left: 200px;
     }
 
     .enjoy__content__title {
         font-size: 46px;
-        margin-top: 44px;
+        margin-top: 24px;
         margin-bottom: 20px;
     }
 
@@ -570,22 +577,33 @@
     }
 
     .enjoy__content {
-        height: 65%;
-        width: 46%;
-        margin-left: 30px;
+        height: 70%;
+        width: 89%;
     }
 
 
     /* Menu */
 
     .menu__container {
-        padding-top: 20px;
-        width: 100%;
+        padding-top: 10px;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .menu__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .menu__content__card {
+        width: 82%;
+        margin-bottom: 50px;
     }
 
     .menu__title {
         font-size: 46px;
-        margin-bottom: 48px;
+        margin-bottom: 46px;
     }
 
     .menu__content__card__title {
@@ -596,6 +614,43 @@
     .menu__content__card__price {
         margin-top: 0px;
         font-size: 24px;
+    }
+
+
+    /* Enjoy Two */
+    .enjoy-two__container {
+        width: 100%;
+        margin-top: 50px;
+        height: 340px;
+    }
+
+    
+
+    .enjoy-two__img {
+        margin-top: 240px;
+        width: 48%;
+    }
+
+    .enjoy-two__content {
+        width: 80%;
+        top: -30px;
+        left: 10%;
+    }
+
+    .enjoy-two__content__title {
+        font-size: 46px;
+        margin-top: 56px;
+        margin-bottom: 20px;
+    }
+
+    .enjoy-two__content__text {
+        font-size: 18px;
+    }
+
+
+    /* Contact */
+    .contact__logo {
+        margin-top: 126px;
     }
 }
 
