@@ -510,7 +510,7 @@
     /* Gallery */
     .container {
         /* width: 80% !important; */
-        margin-left: 20px;
+        margin-left: 5%;
         /* margin-top: 900px !important; */
     }
 
@@ -527,7 +527,7 @@
         color: white;
         font-size: 46px;
         text-align: left !important;
-        padding-top: 160px;
+        padding-top: 140px;
         margin-bottom: 60px;
     }
 
